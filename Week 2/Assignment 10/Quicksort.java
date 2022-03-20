@@ -1,14 +1,14 @@
 class QuickSort{
 	
 
-static void swap(int[] arr, int i, int j)
+static void swap(int arr[], int i, int j)
 {
 	int temp = arr[i];
 	arr[i] = arr[j];
 	arr[j] = temp;
 }
 
-static int partition(int[] arr, int low, int high)
+static int partition(int arr[], int low, int high)
 {
 	int pivot = arr[high];
 	int i = (low - 1);
